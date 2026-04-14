@@ -27,8 +27,9 @@ int main (){
         } else if(i%2==0){
             printf("KUNING\n");
         } else{
+            printf("%d\n", i);
             //digit genap
-            int sum=0,temp=i;
+            /*int sum=0,temp=i;
             while(temp>0){
                 sum+=temp%10;
                 temp/=10;
@@ -38,7 +39,7 @@ int main (){
                 printf("HIJAU\n");
             } else{
                 printf("%d\n", i);
-            }
+            }*/
         }
 
     }return 0;
